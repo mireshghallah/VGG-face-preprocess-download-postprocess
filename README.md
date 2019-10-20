@@ -1,7 +1,7 @@
 # VGG-face-preprocess-download-postprocess
 Acquire vgg-face dataset completely, with pre and post processing.
 
-## vgg-face
+
 # Step 1:
 Acquire VGG-Face-Dataset:
 Download and unzip from website 
