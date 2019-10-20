@@ -1,5 +1,5 @@
 # VGG-face-preprocess-download-postprocess
-Acquire vgg-face dataset completely, with pre and post processing.
+Acquire vgg-face dataset completely, with pre and post processing and a sample dataset loader script.
 
 
 # Step 1:
@@ -29,5 +29,8 @@ These images are all in png, and it will be hard for dataloaders to load them an
 convert_delete.py
 
 to compress dataset and change png to jpg. It also changes the directory formation to match to PyTorch DataLoaders.
+
+# Step 5:
+Just to show an example, there is a python script included that loads these images as a dataset using PyTorch. Run sample.py.
 
 
